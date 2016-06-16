@@ -1,0 +1,5 @@
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 0.218 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  out/parens_of_the_dead/client.js
