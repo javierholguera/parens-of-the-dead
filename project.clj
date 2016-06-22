@@ -9,9 +9,11 @@
                  [http-kit "2.1.18"]
                  [org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.36"]
-                 [quiescent "0.3.2"]]
+                 [quiescent "0.3.2"]
+                 [expectations "2.1.8"]]
   :profiles {:dev {:plugins [[lein-cljsbuild "1.1.4-SNAPSHOT"]
-                             [lein-figwheel "0.5.4"]]
+                             [lein-figwheel "0.5.4"]
+                             [lein-expectations "0.0.7"]]
                    :dependencies [[reloaded.repl "0.2.2"]]
                    :source-paths ["dev"]
                    :cljsbuild {:builds [{:id "undead-example"
@@ -23,4 +25,4 @@
                                                     :asset-path "/out"
                                                     :optimizations :none
                                                     :recompile-dependents true
-                                                                                                        :source-map true}}]}}})
+                                                    :source-map true}}]}}})
